@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "TweetXer GraphQL Safe - Extension",
+  "version": "1.2.1",
+  "description": "Conservative archive-based X DeleteTweet extension with pacing, persistence, skip support, rate-limit handling, and logs.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://x.com/*",
+    "https://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
