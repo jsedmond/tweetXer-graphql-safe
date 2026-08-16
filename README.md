@@ -17,7 +17,8 @@ delete/undo-repost action.
 > **Important:** This uses an undocumented internal X GraphQL endpoint.
 > X can change the endpoint, query ID, authentication behavior, headers,
 > or rate limits at any time. Automated deletion can also carry account
-> risk. Use at your own risk.
+> risk. Use at your own risk. **It is also very slow to prevent rate-limiting,
+> averaging just under 300 ids per hour.**
 
 ## Screenshot
 
