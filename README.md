@@ -23,6 +23,15 @@ delete/undo-repost action.
 
 <img width="1219" height="450" alt="image" src="https://github.com/user-attachments/assets/0d8178e6-efa2-4a95-96cc-7721e337c4c3" />
 
+## How to use
+
+1.  [Request](https://x.com/settings/your_twitter_data/data) (takes several days) and download your Data Export and unzip it
+2.  Log into your Twitter account
+3.  Open the browser console (F12 or cmd+option+i)
+4.  Paste the [whole script](https://github.com/jsedmond/tweetXer-graphql-safe/blob/main/tweetxer_graphql_safe_v1_2_1.js) into the console and press enter
+5.  A blue banner appears at the top of the window
+6.  Use the file picker to select your tweet-headers.js or tweets.js file
+7.  Wait for all your Tweets to vanish
 
 ## Archive input
 
