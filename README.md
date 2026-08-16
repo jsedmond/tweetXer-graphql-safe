@@ -14,11 +14,12 @@ including older posts and repost-wrapper IDs that may still exist even
 when X's normal web interface does not provide a usable
 delete/undo-repost action.
 
+**It is very slow to prevent rate-limiting, averaging just under 300 ids per hour.**
+
 > **Important:** This uses an undocumented internal X GraphQL endpoint.
 > X can change the endpoint, query ID, authentication behavior, headers,
 > or rate limits at any time. Automated deletion can also carry account
-> risk. Use at your own risk. **It is also very slow to prevent rate-limiting,
-> averaging just under 300 ids per hour.**
+> risk. Use at your own risk. 
 
 ## Screenshot
 
