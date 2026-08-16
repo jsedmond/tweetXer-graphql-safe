@@ -1,8 +1,7 @@
 # TweetXer GraphQL Safe --- README Update Notes
 
 These notes summarize the changes made while developing **TweetXer
-GraphQL Safe** through **v1.2.1**. They can be copied into the project
-README or adapted into a changelog.
+GraphQL Safe** through **v1.2.1**. 
 
 ## What this project does
 
@@ -19,6 +18,11 @@ delete/undo-repost action.
 > X can change the endpoint, query ID, authentication behavior, headers,
 > or rate limits at any time. Automated deletion can also carry account
 > risk. Use at your own risk.
+
+## Screenshot
+
+<img width="1219" height="450" alt="image" src="https://github.com/user-attachments/assets/0d8178e6-efa2-4a95-96cc-7721e337c4c3" />
+
 
 ## Archive input
 
