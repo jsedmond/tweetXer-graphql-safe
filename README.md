@@ -25,13 +25,21 @@ delete/undo-repost action.
 
 ## How to use
 
-1.  [Request](https://x.com/settings/your_twitter_data/data) (takes several days) and download your Data Export and unzip it
-2.  Log into your Twitter account
-3.  Open the browser console (F12 or cmd+option+i)
-4.  Paste the [whole script](https://github.com/jsedmond/tweetXer-graphql-safe/blob/main/tweetxer_graphql_safe_v1_2_1.js) into the console and press enter
-5.  A blue banner appears at the top of the window
-6.  Use the file picker to select your tweet-headers.js or tweets.js file
-7.  Wait for all your Tweets to vanish
+1.  Request and download your X data archive.
+2.  Open X in the browser while logged into the account being cleaned.
+3.  Open the browser console (F12 or cmd+option+i).
+4.  Paste the [whole script](https://github.com/jsedmond/tweetXer-graphql-safe/blob/main/tweetxer_graphql_safe_v1_2_1.js) into the console and press enter.
+5.  Import `tweet-headers.js` (recommended) or `tweets.js`.
+6.  Confirm that the expected archive total appears.
+7.  If continuing an earlier run, enter the appropriate **Skip first
+    IDs** value before starting.
+8.  Press **Start / Resume**.
+9.  Watch HTTP 200, 429, and Failed counters.
+10. Allow automatic batch/rate-limit pauses to complete.
+11. Export the JSON log periodically during long runs.
+12. Use **Pause** before intentionally inspecting or changing the run.
+13. Use **Reset progress** only when you intentionally want to discard
+    the saved position and start a new run.
 
 ## Archive input
 
@@ -348,23 +356,6 @@ deleted post.
 -   Automation may carry account restriction/suspension risk.
 -   The script is designed for deliberate, conservative cleanup rather
     than maximum throughput.
-
-## Recommended workflow
-
-1.  Request and download your X data archive.
-2.  Open X in the browser while logged into the account being cleaned.
-3.  Load the userscript.
-4.  Import `tweet-headers.js` (recommended) or `tweets.js`.
-5.  Confirm that the expected archive total appears.
-6.  If continuing an earlier run, enter the appropriate **Skip first
-    IDs** value before starting.
-7.  Press **Start / Resume**.
-8.  Watch HTTP 200, 429, and Failed counters.
-9.  Allow automatic batch/rate-limit pauses to complete.
-10. Export the JSON log periodically during long runs.
-11. Use **Pause** before intentionally inspecting or changing the run.
-12. Use **Reset progress** only when you intentionally want to discard
-    the saved position and start a new run.
 
 ## Credits / origin
 
