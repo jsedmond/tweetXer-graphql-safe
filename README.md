@@ -1,4 +1,4 @@
-# TweetXer GraphQL Safe --- README Update Notes
+# TweetXer GraphQL Safe
 
 These notes summarize the changes made while developing **TweetXer
 GraphQL Safe** through **v1.2.1**. 
@@ -23,7 +23,24 @@ delete/undo-repost action.
 
 <img width="1219" height="450" alt="image" src="https://github.com/user-attachments/assets/0d8178e6-efa2-4a95-96cc-7721e337c4c3" />
 
-## How to use
+## How to use with the extension (Chrome, Brave, Edge)
+
+1.  Request and download your X data archive.
+2.  Open X in the browser while logged into the account being cleaned.
+3.  Download the extension folder and load unpacked extension into your browser
+5.  Import `tweet-headers.js` (recommended) or `tweets.js`.
+6.  Confirm that the expected archive total appears.
+7.  If continuing an earlier run, enter the appropriate **Skip first
+    IDs** value before starting.
+8.  Press **Start / Resume**.
+9.  Watch HTTP 200, 429, and Failed counters.
+10. Allow automatic batch/rate-limit pauses to complete.
+11. Export the JSON log periodically during long runs.
+12. Use **Pause** before intentionally inspecting or changing the run.
+13. Use **Reset progress** only when you intentionally want to discard
+    the saved position and start a new run.
+
+## How to use with dev tools
 
 1.  Request and download your X data archive.
 2.  Open X in the browser while logged into the account being cleaned.
