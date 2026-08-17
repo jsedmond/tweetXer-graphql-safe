@@ -25,7 +25,7 @@ delete/undo-repost action.
 
 <img width="1219" height="450" alt="image" src="https://github.com/user-attachments/assets/0d8178e6-efa2-4a95-96cc-7721e337c4c3" />
 
-<img width="1207" height="464" alt="image" src="https://github.com/user-attachments/assets/59db724d-503d-447d-8a43-4d0782bef27d" />
+<img width="1222" height="460" alt="image" src="https://github.com/user-attachments/assets/eb210912-3ab9-4e85-bace-d8477e888bb6" />
 
 
 ## How to use with the extension (Chrome, Brave, Edge)
