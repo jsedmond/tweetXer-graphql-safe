@@ -180,6 +180,8 @@ Earlier versions used a decrementing JavaScript timer for batch waits.
 Browser background-tab throttling or suspension could potentially make a
 nominal 10-minute wait behave unpredictably.
 
+Note: this successfully runs at 6 minutes without issue drastically decreasing the entire time to task.
+
 v1.2 changed long waits to use an absolute wall-clock end time.
 
 For example:
