@@ -32,9 +32,11 @@ delete/undo-repost action.
 ## Screenshots from Twitter archive
 
 Initial Twitter archive request
+
 <img width="622" height="205" alt="image" src="https://github.com/user-attachments/assets/d616cd60-d8b8-4c99-a8b7-6209447a5abb" />
 
 Follow up Twitter archive request
+
 <img width="564" height="226" alt="image" src="https://github.com/user-attachments/assets/532b2d43-cb9e-4906-b070-fb6a7f97696f" />
 
 ## How to use with the extension (Chrome, Brave, Edge)
